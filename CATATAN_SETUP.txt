@@ -1,0 +1,19 @@
+PROJECT UTS PEMROGRAMAN WEB III
+
+Project Laravel: uts_nama_nim
+Database: MySQL, database uts_nama_nim
+Login seed: admin@perpustakaan.test / password
+
+Perintah:
+composer install
+copy .env.example .env
+php artisan key:generate
+php artisan migrate:fresh --seed
+php artisan serve
+
+GitHub:
+git branch -M main
+git remote add origin https://github.com/USERNAME/uts_nama_nim.git
+git push -u origin main
+
+Catatan: Composer tidak tersedia pada lingkungan pembuatan ini, sehingga vendor/ tidak disertakan.

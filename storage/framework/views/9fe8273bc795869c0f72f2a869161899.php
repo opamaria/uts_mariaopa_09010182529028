@@ -1,0 +1,3 @@
+ <?php $__env->startSection('content'); ?><div class="card"><h1>Dashboard</h1><p>Selamat datang di Sistem Informasi Perpustakaan.</p></div><div class="grid"><div class="card"><h3>Total Buku</h3><h2><?php echo e(\App\Models\Book::count()); ?></h2></div><div class="card"><h3>Kategori</h3><h2><?php echo e(\App\Models\Category::count()); ?></h2></div><div class="card"><h3>Total Stok</h3><h2><?php echo e(\App\Models\Book::sum('stock')); ?></h2></div></div><?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.app', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH C:\Users\maria opa\OneDrive\Documents\UTS WEB\UTS WEB 1\UTS_mariaopa_09010182529028\resources\views/dashboard.blade.php ENDPATH**/ ?>

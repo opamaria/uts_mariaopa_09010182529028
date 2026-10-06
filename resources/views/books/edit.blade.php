@@ -1,0 +1,1 @@
+@extends('layouts.app') @section('content')<div class="card"><h1>Edit Buku</h1><form method="POST" action="{{route('books.update',$book)}}">@csrf @method('PUT') @include('books.form')<button class="btn">Update</button></form></div>@endsection

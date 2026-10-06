@@ -1,0 +1,3 @@
+ <?php $__env->startSection('content'); ?><div class="card"><h1>Tambah Buku</h1><form method="POST" action="<?php echo e(route('books.store')); ?>"><?php echo csrf_field(); ?> <?php echo $__env->make('books.form', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><button class="btn">Simpan</button></form></div><?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.app', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH C:\Users\maria opa\OneDrive\Documents\UTS WEB\UTS WEB 1\UTS_mariaopa_09010182529028\resources\views/books/create.blade.php ENDPATH**/ ?>

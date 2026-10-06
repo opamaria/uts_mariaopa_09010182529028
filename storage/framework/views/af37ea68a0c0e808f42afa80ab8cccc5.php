@@ -1,0 +1,3 @@
+ <?php $__env->startSection('content'); ?><div class="card"><h1>Edit Buku</h1><form method="POST" action="<?php echo e(route('books.update',$book)); ?>"><?php echo csrf_field(); ?> <?php echo method_field('PUT'); ?> <?php echo $__env->make('books.form', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><button class="btn">Update</button></form></div><?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.app', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH C:\Users\maria opa\OneDrive\Documents\UTS WEB\UTS WEB 1\uts_nama_nim\resources\views/books/edit.blade.php ENDPATH**/ ?>
